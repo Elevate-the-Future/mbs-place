@@ -1,8 +1,13 @@
-# etf-sites
-A repository of all the sites created for Elevate the Future's Project Falcon.
+# mbs-place
 
-## docs
-Used for the GitHub pages deployment. Place the source files of whatever project is to be deployed into this directory and commit. GitHub will automatically build after pushing.
+Source files for the site of MB's Place. Made as part of [Project Falcon](https://www.elevatethefuture.org/projectfalcon).
 
-## mbs-place
-Run `bundle exec jekyll serve` to spin up a development server. Edit URLs in **_config.yml**. 
+---
+
+## Development
+First clone this repository to your computer. Then, in the **docs** directory, run `python3 -m http.server` to start a server.
+
+Visit [http://0.0.0.0:8000/](http://0.0.0.0:8000/) to preview the site.
+
+## Deployment
+GitHub Pages will automatically deploy whatever is in the **docs** directory in `master` upon pushing.
